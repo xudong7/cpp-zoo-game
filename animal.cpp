@@ -38,7 +38,7 @@ public:
     }
     void move() { cout << "Run " << 5 + 0.1 * getAge() << " inches! "; }
     void shout() { cout << "Bark Bark! it's " << getName() << "(age " << getAge() << ")" << endl; }
-    void guessShout() { cout << "Bark Bark! it's Animal (age" << getAge() << ")" << endl; }
+    void guessShout() { cout << "Bark Bark! it's Animal (age " << getAge() << ")" << endl; }
     static int getDogNum() { return dogNum; }
 };
 
@@ -53,7 +53,7 @@ public:
     }
     void move() { cout << "Jump " << 1 + 0.1 * getAge() << " inches! "; }
     void shout() { cout << "Croak Croak! it's " << getName() << "(age " << getAge() << ")" << endl; }
-    void guessShout() { cout << "Croak Croak! it's Animal (age" << getAge() << ")" << endl; }
+    void guessShout() { cout << "Croak Croak! it's Animal (age " << getAge() << ")" << endl; }
     static int getFrogNum() { return frogNum; }
 };
 
@@ -68,7 +68,7 @@ public:
     }
     void move() { cout << "Fly " << 10 + 0.1 * getAge() << " inches! "; }
     void shout() { cout << "Tweet Tweet! it's " << getName() << "(age " << getAge() << ")" << endl; }
-    void guessShout() { cout << "Tweet Tweet! it's Animal (age" << getAge() << ")" << endl; }
+    void guessShout() { cout << "Tweet Tweet! it's Animal (age " << getAge() << ")" << endl; }
     static int getBirdNum() { return birdNum; }
 };
 
@@ -83,7 +83,7 @@ public:
     }
     void move() { cout << "Run " << 6 + 0.1 * getAge() << " inches! "; }
     void shout() { cout << "Meow Meow! it's " << getName() << "(age " << getAge() << ")" << endl; }
-    void guessShout() { cout << "Meow Meow! it's Animal (age" << getAge() << ")" << endl; }
+    void guessShout() { cout << "Meow Meow! it's Animal (age " << getAge() << ")" << endl; }
     static int getCatNum() { return catNum; }
 };
 
