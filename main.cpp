@@ -8,6 +8,11 @@ int Dog::dogNum = 0;
 int Frog::frogNum = 0;
 int Bird::birdNum = 0;
 int Cat::catNum = 0;
+// if you want to change the number of animals, you can change the following variables
+int addDogNum = 8;
+int addFrogNum = 7;
+int addBirdNum = 10;
+int addCatNum = 5;
 int questionNum = 5;
 
 void setColor(int color)
@@ -132,9 +137,10 @@ void infoIntro()
 void zooGame()
 {
     setColor(WHITE);
+    // if you want to show the introduction, you can uncomment the following line
     // infoIntro(); 
     Zoo zoo;
-    addAnimalsToZoo(zoo, 8, 7, 10, 5);
+    addAnimalsToZoo(zoo, addDogNum, addFrogNum, addBirdNum, addCatNum);
     vector<Animal*> animalList;
     randomChooseAnimalToList(animalList, zoo);
     test(animalList);
